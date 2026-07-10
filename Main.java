@@ -6,6 +6,11 @@ public class Main {
 
         int[] array = { 1, 2, 3 };
         paiLie(array, 0);
+
+        Person[] personArray = new Person[5];
+        for (int i = 0; i < personArray.length; i++) {
+            personArray[i] = new Person(i, "张三");
+        }
     }
 
     public static void paiLie(int[] array, int index) {
