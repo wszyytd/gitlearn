@@ -15,6 +15,14 @@ public class Person implements Comparable<Person> {
         return this.name;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public int compareTo(Person o) {
         return Integer.compare(this.id, o.id);
