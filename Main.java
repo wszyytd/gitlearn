@@ -11,6 +11,8 @@ public class Main {
         for (int i = 0; i < personArray.length; i++) {
             personArray[i] = new Person(i, "张三");
         }
+
+        Arrays.sort(personArray);
     }
 
     public static void paiLie(int[] array, int index) {
